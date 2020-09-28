@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/srodriguez0/srodriguez0.gi
 Does this show up tho?
 
 <ul>
-  {% for post in ./_posts %}
+  {% for post in _posts %}
     <li>
       <a href="{{ https://github.com/srodriguez0/srodriguez0.github.io/blob/master/_posts/2020-09-27-Test-post-1.md }}">{{ Test-post-1 }}</a>
     </li>
