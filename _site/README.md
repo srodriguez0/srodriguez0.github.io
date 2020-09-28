@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/srodriguez0/srodriguez0.gi
 Does this show up tho? sdfasdf
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in ../_posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
