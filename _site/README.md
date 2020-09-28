@@ -2,7 +2,8 @@
 
 You can use the [editor on GitHub](https://github.com/srodriguez0/srodriguez0.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Does this show up tho? sdfasdf
+
+Here is a list of my posts:
 
 <ul>
   {% for post in ../_posts %}
