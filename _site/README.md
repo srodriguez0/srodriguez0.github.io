@@ -4,6 +4,15 @@ You can use the [editor on GitHub](https://github.com/srodriguez0/srodriguez0.gi
 
 Does this show up tho? sdfasdf
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
